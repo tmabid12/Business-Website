@@ -1,0 +1,348 @@
+body {
+    padding: 0px;
+    margin: 0px;
+width: 100%;
+background-color: #f8f8f8;
+/* color:white; */
+}
+header{
+    background-color: rgb(42, 42, 42);
+    overflow: auto;
+}
+header input{
+    border-radius: 10px;
+    margin-top: 22px;
+    width: 90px;
+}
+
+.logo {
+    display: inline-block;
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    background-color: black;
+}
+
+.navbar {
+    background-image: linear-gradient(to right,#9eff02, #1ec039);
+    display: block;
+    width: 60%;
+    margin: 0px auto;
+    padding: 0%;
+    
+    
+}
+
+.navbar ul {
+    display: flex;
+     justify-content:space-evenly;
+    }
+
+.navbar li {
+    font-size: 18px;
+    font-weight: bolder;
+   
+
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+.social {
+    display: inline-block;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+}
+/* end of navigation */
+
+.cover {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/coverimg.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    position: relative;
+}
+
+.cover-words {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 35vh;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 130%;
+}
+
+.first-content {
+    display: block;
+    width: 95%;
+    height: 60vh;
+    border-radius: 20px;
+    position: absolute;
+    top: 85%;
+    left: 2.5%;
+    right: 2.5%;
+    text-align: center;
+    background-image: linear-gradient(to right,#9eff02, #1ec039);
+}
+#black{
+    color: black;
+}
+.first-content p{
+    list-style: none;
+    font-size: 22px;
+    
+    
+}
+.first-content ul{
+    list-style: none;
+    font-size: 22px;
+}
+
+.first-content .btn1 {
+    background-image: linear-gradient(to left,#9eff02, #1ec039);
+    font-size: 20px;
+    border: none;
+    margin-top: 25px;
+    outline: none;
+    cursor: pointer;
+}
+
+.first-content .btn1::before {
+    content: ".";
+    color: yellowgreen;
+    height: 2px;
+    width: 2px;
+    border-radius: 20px;
+}
+
+.firstsection {
+ 
+    width: 100%;
+    height: 175vh;
+    margin-top: 330px;
+    text-align: center;
+}
+
+.firstsection .mid-section {
+    
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    width: 24%;
+    height: 65vh;
+    overflow: auto;
+    border: 1px solid black;
+}
+.firstsection .mid-section img{
+    height: 25vh;
+    width: 60%;
+}
+.firstsection .mid-section{
+    padding: 7px;
+}
+
+.scendsection {
+    
+    width: 99%;
+    height: 80vh;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.scendsection img{
+    height: 79vh;
+    width: 100%;
+}
+
+
+.sec2 {
+    
+    display: inline-block;
+    width: 50%;
+    height: 79vh;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+}
+.sec3 {
+    
+    display: inline-block;
+    width: 49%;
+    height: 79vh;
+    margin-top: 0%;
+    padding: 0%;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    background-color: black;
+    
+    font-size: 15px;
+}
+.sec3 h1{
+    color: white;
+
+}
+.sec3 p{
+    color: #777;
+    padding: 0px 10px;
+}
+#para12{
+    margin-top: 49px;
+    
+}
+.item-1{
+    display: inline-block;
+    width: 49%;
+    margin-top: 40px ;
+}
+
+.lowmid-dsection {
+    
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    
+}
+.lowmid-dsection .review-Consultants img{
+    height: 25vh;
+    width: 60%;
+}
+
+.review-Consultants {
+    
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    width: 24%;
+    height: 48vh;
+    border: 1px solid black;
+   
+}
+
+.lowersection {
+   
+    width: 100%;
+    height: 85vh;
+    display: inline-block;
+    position: relative;
+    background-color: black;
+}
+
+
+.appointment1 {
+   
+    width: 49%;
+    height: 79vh;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    left: 5px;
+}
+
+.appointment2 {
+   
+    width: 49%;
+    height: 79vh;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    
+}
+.lowersection .appointment1 img{
+    height: 79vh;
+    width: 100%;
+    display: inline-block;
+}
+.login-from{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    overflow: auto;
+    
+}
+
+.login-from input{
+    display: inline-block;
+    margin: 15px;
+    width: 65%;
+    height: 6vh;
+    background: transparent;
+   
+    color: #757575;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #505362;
+
+}
+.login-from .btn2{
+    display: block;
+    background-image: linear-gradient(to right,#9eff02, #1ec039);
+    width: 25%;
+    margin: 20px auto;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+.login-from a{
+    text-decoration: none;
+    color: white;
+}
+.feedback {
+    display: inline-block;
+  
+    margin: 0%;
+    padding: 0%;
+    width: 24%;
+    height: 65vh;
+}
+.feedback img{
+    height: 25vh;
+    width: 60%;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 60hv;
+    margin: 0px;
+    padding: 0px;
+}
+
+.foot {
+    padding: 0%;
+    margin: 0%;
+    display: inline-block;
+    color: white;
+    width: 49%;
+    height: 45vh;
+    padding-top:40px  ;
+    overflow: auto;
+    text-align: center;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
